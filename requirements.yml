@@ -1,0 +1,9 @@
+# conda env create -f requirements.yml
+name: app
+dependencies:
+- python=3.6
+- pip:
+  - celery==4.1.0
+  - flask==0.12.2
+  - requests==2.18.4
+  - responses==0.5.1
