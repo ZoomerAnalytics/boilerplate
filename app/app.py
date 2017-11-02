@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 
 @app.route("/")
 def index():
-    pass
+    return '', 204
 
 
 if __name__ == "__main__":
